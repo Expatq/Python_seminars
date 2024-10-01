@@ -47,22 +47,3 @@ class Fraction:
         result = Fraction(f"{res_num}/{res_denum}")
 
         return result
-
-
-
-print(Fraction("1 2"))
-print(Fraction("4 16"))
-print(Fraction("14/7"))
-print(Fraction("5"))
-print(Fraction("45/25"))
-
-a = (Fraction("1 2"))
-b = (Fraction("3/7"))
-print(a < b)
-print(a + b)
-
-c = (Fraction("4 3"))
-arr = [a, b, c]
-arr.sort()
-for x in arr:
-    print(x, end = ' ')
