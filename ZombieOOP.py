@@ -18,3 +18,7 @@ class Zombie(Monster):
     def growl(self, up = False):
         s = "Raaaauuughhhh" if not up else "Raaaauuughhhh".upper()
         super().growl(s)
+
+    def attack(self):
+        super().attack()
+        self.growl()
