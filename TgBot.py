@@ -1,5 +1,4 @@
 import telebot
-from charset_normalizer.cli import query_yes_no
 from telebot import types
 
 questions = [
