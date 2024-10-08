@@ -1,5 +1,6 @@
 import telebot
 from telebot import types
+# https://t.me/LilRains_BullsAndCowsBot
 
 questions = [
     {"question": "Какого цвета холодильник: ",
